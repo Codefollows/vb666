@@ -1,0 +1,167 @@
+/*========================================================================*\
+|| ###################################################################### ||
+|| # vBulletin 6.0.6
+|| # ------------------------------------------------------------------ # ||
+|| # Copyright 2000-2024 MH Sub I, LLC dba vBulletin. All Rights Reserved.  # ||
+|| # This file may not be redistributed in whole or significant part.   # ||
+|| # ----------------- VBULLETIN IS NOT FREE SOFTWARE ----------------- # ||
+|| # http://www.vbulletin.com | http://www.vbulletin.com/license.html   # ||
+|| ###################################################################### ||
+\*========================================================================*/
+
+/**
+* vBulletin Global CSS
+*/
+
+.yui-main, .yui-b, .yui-g {
+	width: 100%;
+	float: left;
+}
+
+/* ############################################################################# */
+/* GENERIC UTILITIES */
+
+/* this duplicates frontend css, which isn't available here */
+.h-align-middle {
+	vertical-align: middle;
+	display: inline;
+}
+.h-align-middle--only {
+	vertical-align: middle;
+}
+.h-clearfix {
+	overflow: auto;
+}
+
+.h-hide-imp {
+	display: none !important;
+}
+
+.h-disabled {
+	cursor: default;
+}
+
+.h-sticky {
+	position: sticky;
+	top: 0px;
+}
+
+.hide {
+	display: none;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.h-left {
+	float: var(--vb-left);
+}
+
+.h-right {
+	float: var(--vb-right);
+}
+
+.h-clear-left {
+	clear: var(--vb-left);
+}
+
+.h-clear-right {
+	clear: var(--vb-right);
+}
+
+.h-cursor {
+	cursor: pointer;
+}
+
+.h-center-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h-flex-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.h-gap-4 {
+	gap: 4px;
+}
+/*Intended for increasing target area for checkboxes & visually cue the increased area.*/
+.h-checkbox-label {
+	padding: 8px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	position:relative;
+}
+.h-checkbox-label input[type="checkbox"] {
+	margin: 0;
+	cursor: pointer;
+	z-index: 1;
+}
+label:hover > .h-checkbox-label::before,
+.h-checkbox-label:hover::before {
+	/*
+	experimental: based on google material components, enhance the visual indication the larger checkbox
+	target area via a circle around the checkbox.
+	*/
+	content: '';
+	border-radius: 50%;
+	/*frontend default use #ECEAEA here, but adminCP tends to be a lot of grays, so this needs to be a bit darker to pop*/
+	background-color: #979797;
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+/*This is a helper class meant to be used for checkbox-columns to not take up a lot of width in tables*/
+.h-fixed-width-32 {
+	width: 32px;
+}
+/*****************************CodeMirror**********************************************/
+.CodeMirror {
+	border: 1px solid #B3B7BF;
+	font-family: "Courier New",Courier,monospace !important;
+	font-size: 13px !important;
+}
+.CodeMirror-focused .cm-matchhighlight {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFklEQVQI12NgYGBgkKzc8x9CMDAwAAAmhwSbidEoSQAAAABJRU5ErkJggg==);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+.CodeMirror-foldmarker {
+	color: blue;
+	text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px;
+	font-family: arial;
+	line-height: .3;
+	cursor: pointer;
+}
+.cm-tab {
+	 background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+	 background-position: right;
+	 background-repeat: no-repeat;
+}
+.cm-vbulletincurly{
+	font-weight: bold;
+}
+.CodeMirror-fullscreen {
+	display: block;
+	position: absolute !important;
+	top: 0; left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: white;
+  }
+.CodeMirror-activeline-background {background: #e8f2ff !important;}
+
+/*========================================================================*\
+|| ######################################################################
+|| # Downloaded: 06:53, Sun Oct 27th 2024
+|| # CVS: $RCSfile$ - $Revision: 116437 $
+|| ######################################################################
+\*========================================================================*/

@@ -1,0 +1,351 @@
+/*========================================================================*\
+|| ###################################################################### ||
+|| # vBulletin 6.0.6
+|| # ------------------------------------------------------------------ # ||
+|| # Copyright 2000-2024 MH Sub I, LLC dba vBulletin. All Rights Reserved.  # ||
+|| # This file may not be redistributed in whole or significant part.   # ||
+|| # ----------------- VBULLETIN IS NOT FREE SOFTWARE ----------------- # ||
+|| # http://www.vbulletin.com | http://www.vbulletin.com/license.html   # ||
+|| ###################################################################### ||
+\*========================================================================*/
+
+/*
+This file requires that two css variables be set
+:root {
+	--vb-left: left;
+	--vb-right: right;
+}
+
+These should be flipped when rtl is desired.  Similarly the html element dir attribute should be properly set 
+either RTL or LTR (and should match the above variables).  If this isn't done then it's unlikely that
+this css will work correctly.
+*/ 
+body {
+	margin:0;
+}
+
+#vb_overlay_background {
+	opacity:0.50;
+	background-color:#000000;
+	z-index:10;
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+
+#header {
+	border:outset 2px;
+	display:block;
+	padding:5px;
+}
+
+.floatcontainer:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#acp-logo-bar {
+	color:#FFF;
+}
+
+#acp-logo-bar div.logo {
+	width:100px;
+	float: var(--vb-left);
+}
+
+#acp-logo-bar div.notice {
+	padding-top:11px;
+}
+
+#acp-logo-bar div.xml1, #acp-logo-bar div.xml3 {
+	float: var(--vb-right);
+	text-align: var(--vb-right);
+	padding-top:5px;
+}
+
+#acp-logo-bar div.xml2, #acp-logo-bar div.xml4 {
+	float: var(--vb-right);
+	text-align: var(--vb-left);
+	padding-top:5px;
+}
+
+html[dir="ltr"] #acp-logo-bar div.xml2, #acp-logo-bar div.xml4 {
+	padding-right: 10px;
+	margin-left: 15px;
+}
+
+html[dir="rtl"] #acp-logo-bar div.xml2, #acp-logo-bar div.xml4 {
+	padding-left: 10px;
+	margin-right: 15px;
+}
+
+#acp-logo-bar div.xml1 ul, #acp-logo-bar div.xml2 ul, #acp-logo-bar div.xml3 ul, #acp-logo-bar div.xml4 ul {
+	list-style-type:none;
+	margin-top:6px;
+	padding:0;
+	font-size: 11px;
+	font-family: tahoma, verdana, arial, helvetica, sans-serif;
+	color:#E5E5E5;
+}
+
+#all {
+	margin: 10px;
+}
+
+#all p, #all td, #all li, #all div {
+	font-size: 11px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#prompt div.input {
+	display:block;
+}
+
+#progressbox, #mismatch, #authenticate, #prompt, #confirm, #startup_errors, #startup_warnings {
+	width:500px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
+#confirm, #prompt {
+	/*
+		this will change in js.  For things to work properly the width must
+		never be set directly, only this custom value.
+	*/
+	--dialog-width: 500px;
+	position:absolute;
+	z-index:11;
+	width: var(--dialog-width);
+	top:100px;
+	/*
+		We don't need to switch left/right here because the calcuation produces a centered
+		box which will still be centered if we mirror the page.  
+	*/	
+	left: calc(50vw - (var(--dialog-width ) / 2));
+}
+
+#startup_errors .messagebody,
+#startup_warnings .messagebody
+{
+	text-align: var(--vb-left);
+	padding:10px;
+}
+
+#startup_warnings .buttons
+{
+	text-align:center;
+}
+
+#promptmessage, #confirmmessage {
+	padding:10px;
+	text-align: var(--vb-left);
+	overflow:auto;
+	max-height:400px;
+}
+
+#confirmmessage {
+	height: auto;
+}
+
+#progresssection .buttons {
+	text-align: var(--vb-left);
+}
+
+.messageheader {
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.submit, .messagebody {
+	padding:5px;
+}
+
+.advancedconfirmbody {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.advancedconfirm .messagebody {
+	padding:0;
+}
+
+.advancedconfirm #confirmmessage {
+	padding:0;
+}
+
+.list_no_decoration {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#detailbox {
+	margin: 20px auto;
+	width:500px;
+}
+
+#promptresponse {
+	width:90%;
+}
+
+#customerid {
+	width:250px;
+	font-weight:bold;
+	display:block;
+	margin:10px auto 0 auto;
+}
+
+#customerid_error {
+	margin:10px 0;
+	padding:3px;
+}
+
+input[type="submit"] {
+	margin-top:10px;
+}
+
+#mainmessage {
+	height:300px;
+	overflow:auto;
+	padding-bottom:10px;
+}
+
+#mainmessage > ul > li {
+	text-indent:-25px;
+}
+
+html[dir="ltr"] #mainmessage > ul > li {
+	margin-left: 25px;
+}
+
+html[dir="rtl"] #mainmessage > ul > li {
+	margin-right: 25px;
+}
+
+#mainmessage > ul > li ol,
+#mainmessage > ul > li.noindent {
+	text-indent:0;
+}
+
+html[dir="ltr"] #mainmessage > ul > li ol,
+html[dir="ltr"] #mainmessage > ul > li.noindent {
+	margin-left: 0;
+}
+
+html[dir="rtl"] #mainmessage > ul > li ol,
+html[dir="rtl"] #mainmessage > ul > li.noindent {
+	margin-right: 0;
+}
+
+#mainmessage li.querystatus {}
+
+#upgradeprogress {
+	margin-top:4px;
+	float: var(--vb-right);
+	vertical-align:middle;
+}
+
+html[dir="ltr"] #upgradeprogress {
+	margin-right: 10px;
+}
+
+html[dir="rtl"] #upgradeprogress {
+	margin-left: 10px;
+}
+
+#progressbar_container {
+	border:1px outset;
+	height:16px;
+	width:95%;
+	margin:10px auto;
+	background-color:#FFFFFF;
+	text-align: var(--vb-left);
+}
+
+#progressbar {
+	width:0;
+	height:15px;
+	padding-top:1px;
+	background-color:#CCCCCC;
+	text-align: var(--vb-right);
+	overflow:hidden;
+	float: var(--vb-left);
+}
+
+html[dir="ltr"] #progressbar span {
+	margin-right: 2px;
+}
+
+html[dir="rtl"] #progressbar span {
+	margin-left: 2px;
+}
+
+#percentageout {
+	padding-top:1px;
+	/* Not sure if this should be var(--vb-left) or not.  Leaving as is for now */
+	float:left;
+}
+
+html[dir="ltr"] #percentageout {
+	margin-left: 2px;
+}
+
+html[dir="rtl"] #percentageout {
+	margin-right: 2px;
+}
+
+ #showdetails, #hidedetails {
+	margin-<?php echo vB_Template_Runtime::fetchStyleVar('left'); ?>: 7px;
+}
+
+#beginsection {
+	#padding-bottom:10px;
+}
+
+#confirmform, #promptform {
+	padding:0;
+	margin:0;
+}
+
+.hidden {
+	display:none;
+}
+
+.usererror {
+	display:block;
+	color:red;
+}
+
+.usererror.hidden {
+	display:none;
+}
+
+.lbinstallselect {
+	max-width:180px;
+	_width:180px;
+}
+
+div.consolemsg {
+	text-align: var(--vb-left);
+	padding:10px;
+}
+
+div.consolemsg ul li {
+	font-weight:bold;
+	list-style-type:none;
+}
+
+.table-dialog-entry {
+	display:block; 
+	float: var(--vb-left);
+	width:250px; 
+	margin:0px 6px 6px 0px
+}

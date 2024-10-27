@@ -1,0 +1,306 @@
+<html>
+<head>
+	<title>vBulletin License Agreement</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="http://files.vbulletin.com/vbulletin.css" />
+</head>
+<body>
+
+<div id="terms-wrapper">
+
+<h1>Software License Agreement for Downloaded Version 6</h1>
+
+<p>This Software License Agreement for Downloaded Version 6 (this "Agreement") is between you (either an individual or an entity, referred to hereinafter as "you" or "your") and MH Sub I, LLC dba vBulletin, and its affiliates and resellers ("vBulletin", "we", "our" or "us") for the vBulletin software that accompanies this Agreement, as may be updated or replaced by feature enhancements, software updates or maintenance releases including the vBulletin 6 Software, any previously released vBulletin Software under a different version, related explanatory written materials and files ("Documentation"), and any other add-ons or related products (together, the "Software") and any services, including but not limited to the Maintenance Service, Forum Support, Phone and Ticket Support, and Professional Install/Upgrade, that may be provided by vBulletin under this Agreement (together, "Services").</p>
+
+<p>By copying, installing, downloading, or using all or any portion of the Software, you accept all the terms and conditions of this Agreement. vBulletin owns all intellectual property in the Software. If you do not agree to the terms of this Agreement, do not use the Software. This Agreement is enforceable against you and any legal entity that obtained the Software and on whose behalf it is used.</p>
+
+<h2><strong>1. Software License.</strong></h2>
+
+<p>Provided you comply with the terms and conditions of this Agreement and have paid the applicable license fees, vBulletin grants you a revocable, non-exclusive, non-transferable, worldwide, limited license to install, download and use a single instance of the Software on a single website domain in a manner consistent with its designs and Documentation as further set forth below and not for purposes of resale or re-compilation, re-distribution, re-syndication, time sharing or use for the benefit of any third-party (the "License"). Upon vBulletin&#8217;s receipt of the applicable license fees, a unique license number will be issued to you.</p>
+
+<p>1.1 Limited Use. You may not transfer, rent, sublicense, assign, lease, loan, resell for profit, redistribute, encumber, publish or otherwise share the Software (or related materials based upon the Software or any part thereof) without the prior written consent of vBulletin. You must not use the Software other than as permitted by the License or in a manner inconsistent with its design and Documentation.</p>
+
+<p>1.2 Notices. The Software must contain vBulletin&#8217;s copyright and other proprietary notices that appear on or in the Software, unless you purchase a Branding Free License in which attribution of vBulletin is removed from the global footer (&#8220;Branding Free License&#8221;).</p>
+
+<p>1.3 Illegal Activity. You may not use the Software to engage in or allow others to engage in any illegal activity where the Software is accessed and/or used. You may not use the Software to engage in any activity that will violate the rights of third parties, including, without limitation, through the use, public display, public performance, reproduction, distribution, or modification of communications or materials that infringe copyrights, trademarks, publicity rights, privacy rights, other proprietary rights, or rights against defamation of third parties.</p>
+
+<p>1.4 Domain Use. The Software may only be used on a single website domain. Any modification of the Software intended to circumvent the foregoing is prohibited and will result in revocation of the License. Notwithstanding the foregoing, the License may be transferred to another domain with vBulletin&#8217;s prior written consent and a transfer fee subject to the vBulletin then-current fees.</p>
+
+<p>1.5 Need for Content Licenses. The License provides no rights with respect to any content that may be reproduced, encoded, distributed, transmitted, performed, or otherwise used in connection with the Software. You are responsible for ensuring that any content is properly used in accordance with applicable laws and the rights of any third party with respect to such content.</p>
+
+<p>1.6 Backup Copy. You may make one (1) copy of the Software in machine-readable form for backup purposes only; provided that the backup copy must include all copyright or other proprietary notices contained on the original. You may only use the backup copy if the original copy of the Software is no longer usable and the only way to use the Software is to reinstall the Software by use of the backup copy. Any permitted copy of the Software that you make must contain the same copyright and other proprietary notices that appear on or in the Software, unless a Branding Free License is purchased.</p>
+
+<p>1.7 Test Copy. You may make one (1) additional temporary test copy for the purpose of testing code, template and database modifications. Such a test copy must not be made available to the general public at any time.</p>
+
+<p>1.8 Modification of the Code. You may modify the Software source code; provided, however, you may not rent, sublicense, assign, lease, loan, resell for profit, distribute, publish or otherwise share the Software or related materials or derivative works based upon the Software or any part thereof without the prior written consent of vBulletin.</p>
+
+<p>1.9 Pre-release Software Additional Terms. If the Software is pre-commercial release or beta software ("Pre-release Software"), then this section applies. The Pre-release Software is a pre- release version, does not represent a final product from vBulletin, and may contain bugs, errors, and other problems that could cause system or other failures and data loss and may only be used for testing purposes. vBulletin may never commercially release the Pre-release Software. vBulletin may alter features, licensing terms, or other characteristics of any version of the Pre-release Software that it releases. If you received the Pre-release Software pursuant to a separate written agreement, ("Test Agreement") for Pre-release Software, your use of the Software is also governed by the Test Agreement. If there is a conflict between this Agreement and the Test Agreement, the Test Agreement controls. You may not disclose, publish or disseminate any information regarding the Pre-release Software to anyone, including but not limited to any new features or faults to any Internet forums. YOUR USE OF PRE-RELEASE SOFTWARE IS AT YOUR OWN RISK. SEE SECTIONS 7 AND 8 FOR WARRANTY DISCLAIMERS AND LIABILITY LIMITATIONS THAT APPLY TO THE PRE-RELEASE SOFTWARE.</p>
+
+<p>1.10 Updates. "Update(s)" will mean the release of a version of the Software containing improvements, corrections, modifications, alterations, revisions, extensions, language versions, and/or enhancements to the Software and/or Documentation made during the term of this Agreement. The change to an Update will be recognized by an increase in value of any numbers to the right of the first decimal point (e.g., version 6.0.0 can be replaced by either version 6.0.1 or version 6.1.0). In order to install an Update, you must possess a valid license to the previous version of the Software and have active Maintenance Service in place (as described below). Once an Update is installed, this Agreement pertains to the Updated version of the Software, which you must agree to prior to downloading any Update. We recommend you install all Updates that specifically contain bug fixes.</p>
+
+<p>1.11 Maintenance Service. The &#8220;Maintenance Service&#8221; allows you to download applicable Updates of the Software while such Maintenance Service is active. The Maintenance Service will be considered active for one (1) year after the purchase of the Software License. After the first year of purchasing your Software License, you can purchase an additional Maintenance Service for continued access to applicable Updates to your Software License. Each Maintenance Service has an active term of one (1) year from date of purchase of such Maintenance Service. If you do not renew your Maintenance Service upon termination of the applicable period in which such Maintenance Service is active, you will not be able to access Updates to your Software License (however, if a security patch is released, such patch will be made available during inactive periods of Maintenance Service).</p>
+
+<p>1.12 Payment/Fees. You will pay, and authorize vBulletin to charge, any applicable fee using your selected payment method, associated with downloading the Software, purchasing a Maintenance Service, or any other applicable Services. vBulletin may change pricing of the Services at any time in its sole discretion.</p>
+
+<h2><strong>2. Intellectual Property Ownership, Reservation of Rights.</strong></h2>
+
+<p>The Software and any authorized copies that you make are the intellectual property of and are owned by vBulletin. The structure, organization, arrangement and source code of the Software are the valuable trade secrets and confidential information of vBulletin. The Software is protected by law, including but not limited to the copyright laws of the United States and other countries, and by international treaty provisions. Except as expressly stated herein, this Agreement does not grant you any intellectual property rights in the Software and all rights not expressly granted are reserved by MH Sub I, LLC dba vBulletin. vBulletin is a registered trademark of MH Sub I, LLC</p>
+
+<h2><strong>3. Representations.</strong></h2>
+
+<p>You represent and warrant that you have the legal capacity to enter into this Agreement, that you will use the Software only for lawful purposes and in accordance with this Agreement, and that you will not use the Software to violate any law, regulation or ordinance or any right of vBulletin or any third party, including without limitation, any right of privacy, publicity, copyright, trademark, or patent. You represent that you are fully and solely responsible for compliance with any applicable law, including any applicable data privacy laws.</p>
+
+<h2><strong>4. Termination.</strong></h2>
+
+<p>Should you breach this Agreement, your right to use the Software will terminate immediately and without notice. The respective rights and obligations of vBulletin and you under the provisions of Sections 1.1 ("Limited Use"), 1.5 ("Need for Content Licenses"), 2 ("Intellectual Property Ownership, Reservation of Rights"), 4 ("Termination"), 7 ("Limited Warranty"), 8 ("Limitation of Liability"), 9 ("Indemnification"), 12 ("Governing Law"), 13 ("General Provisions"), 16 ("Electronic Notice Delivery Policy"), and 18 ("Third Party Services") shall survive expiration or termination of this Agreement and you agree to continue to be bound by those terms. Upon termination of the License, you must destroy all copies of the Software, including any Updates.</p>
+
+<h2><strong>5. Feedback.</strong></h2>
+
+<p>We may provide you with a mechanism to give us feedback, including for example feedback on usability, bug reports, test results, documentation, suggestions and ideas about the Software (together, the "Feedback"). You agree that we may use the Feedback you provide in any way, including in future modifications of the Software. You grant us a perpetual, worldwide, fully transferable, non-revocable, royalty-free right and license to make, use, modify, sell, license, create derivative works from, distribute and display any information you provide to us in the Feedback. You acknowledge that you have all rights necessary to provide the Feedback under this Agreement and acknowledge that we are in no way obligated to incorporate, use or otherwise acknowledge any Feedback that you have provided or compensate you.</p>
+
+<h2><strong>6. No Refund.</strong></h2>
+
+<p>No refunds will be offered for the Software once it has been downloaded, except as required by law or as otherwise stated herein.</p>
+
+<h2><strong>7. LIMITED WARRANTY.</strong></h2>
+
+<p>THE SOFTWARE IS PROVIDED "AS-IS," AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VBULLETIN DISCLAIMS ALL OTHER WARRANTIES, CONDITIONS, REPRESENTATIONS OR TERMS, EXPRESS OR IMPLIED, BY STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE, REGARDING THE SOFTWARE AND ANY RELATED MATERIALS, INCLUDING THEIR FITNESS FOR A PARTICULAR PURPOSE, THEIR QUALITY, THEIR MERCHANTABILITY, OR THEIR NONINFRINGEMENT. VBULLETIN DOES NOT WARRANT THAT THE SOFTWARE OR ANY RELATED SERVICES IS SECURE, OR IS FREE FROM BUGS, VIRUSES, ERRORS, OR OTHER PROGRAM LIMITATIONS NOR DOES IT WARRANT ACCESS TO THE INTERNET OR TO ANY OTHER SERVICE THROUGH THE SOFTWARE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHER RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION. VBULLETIN DOES NOT SEEK TO LIMIT YOUR WARRANTY RIGHTS TO ANY EXTENT NOT PERMITTED BY LAW. THE ENTIRE RISK AS TO THE RESULTS, QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU. THIS SECTION 7 WILL SURVIVE THE TERMINATION OF THIS AGREEMENT.</p>
+
+<h2><strong>8. LIMITATION OF LIABILITY.</strong></h2>
+
+<p>EXCEPT FOR THE EXCLUSIVE REMEDY OFFERED BY VBULLETIN IN SECTION 7 ABOVE AND ANY REMEDIES THAT CANNOT BE EXCLUDED OR LIMITED UNDER LAW, VBULLETIN, ITS AFFILIATES, RESELLERS, AND CERTIFICATE AUTHORITIES WILL NOT BE LIABLE TO YOU FOR ANY LOSS, DAMAGES, CLAIMS, OR COSTS WHATSOEVER INCLUDING ANY CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES, ANY LOST PROFITS OR LOST SAVINGS, ANY DAMAGES RESULTING FROM BUSINESS INTERRUPTION, PERSONAL INJURY OR FAILURE TO MEET ANY DUTY OF CARE, OR CLAIMS BY A THIRD PARTY, EVEN IF VBULLETIN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, DAMAGES, CLAIMS, OR COSTS. IN ANY EVENT, VBULLETIN&#8217;S AGGREGATE LIABILITY AND THAT OF ITS AFFILIATES, RESELLERS AND CERTIFICATE AUTHORITIES UNDER OR IN CONNECTION WITH THIS AGREEMENT WILL BE LIMITED TO THE AMOUNT PAID FOR THE SOFTWARE. THIS LIMITATION WILL APPLY EVEN IN THE EVENT OF A FUNDAMENTAL OR MATERIAL</p>
+
+<p>BREACH BY VBULLETIN OF THIS AGREEMENT. vBulletin is acting on behalf of its affiliates and resellers for the purpose of disclaiming, excluding and limiting obligations, warranties, and liability, but in no other respects and for no other purpose.</p>
+
+<p>THE FOREGOING LIMITATIONS AND EXCLUSIONS APPLY TO THE EXTENT PERMITTED BY APPLICABLE LAW IN YOUR JURISDICTION. THIS LIMITATION OF LIABILITY MAY NOT BE VALID IN SOME JURISDICTIONS. YOU MAY HAVE RIGHTS THAT CANNOT BE WAIVED UNDER CONSUMER PROTECTION AND OTHER LAWS. VBULLETIN DOES NOT SEEK TO LIMIT YOUR WARRANTY OR REMEDIES TO ANY EXTENT NOT PERMITTED BY LAW. THIS SECTION 8 WILL SURVIVE THE TERMINATION OF THIS AGREEMENT.</p>
+
+<h2><strong>9. Indemnification.</strong></h2>
+
+<p>You agree to defend, indemnify and hold vBulletin, and our parents, officers, directors, employees, agents or affiliates, harmless from and against any and all claims, losses, liability, costs and expenses (including but not limited to reasonable attorneys&#39; fees) arising from your use of the Software or your vBulletin forum users&#39; use of the Software, laws or regulations, or any third party&#39;s rights, including but not limited to infringement of any copyright, violation of any proprietary right or invasion of any privacy rights. This obligation will survive the termination of this Agreement.</p>
+
+<h2><strong>10. U.S. Government End Users.</strong></h2>
+
+<p>The Software and any related documentation are "Commercial Items", as that term is defined at 48</p>
+
+<p>C.F.R. &sect;2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation", as such terms are used in 48 C.F.R. &sect;12.212 or 48 C.F.R. &sect;227.7202, as applicable. Consistent with 48 C.F.R. &sect;12.212 or 48 C.F.R. &sect;227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items, and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights are reserved under the copyright laws of the United States.</p>
+
+<h2><strong>11. Export Rules.</strong></h2>
+
+<p>You acknowledge that the Software is subject to the U.S. Export Administration Regulations and other export laws, restrictions, and regulations (collectively, the "Export Laws") and that you will comply with the Export Laws. You will not ship, transfer, export, or re-export the Software, directly or indirectly, to: (a) any countries that are subject to U.S. export restriction or the United Nations Security Council arms embargoes (each, an "Embargoed Country"), (b) any end user who you know or have reason to know will utilize them in the design, development or production or nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, and sounding rockets, or unmanned air vehicle systems (each, a "Prohibited Use"), or (c) any end user who has been prohibited from participating in the U.S. export transactions by any federal agency of the U.S. government (each, a "Sanctioned Party"). In addition, you are responsible for complying with any local laws in your jurisdiction which may impact your right to import, export or use the Software. You represent and warrant that (i) you are not a citizen or, or located within, and Embargoed Country, (ii) will not use the Software for a Prohibited Use, and (iii) are not a Sanctioned Party. All rights to use the Software are granted on condition that such rights are forfeited if you fail to comply with the terms of this Agreement.</p>
+
+<h2><strong>12. Governing Law.</strong></h2>
+
+<p>The License and this Agreement are governed by and construed in accordance with the laws of the State of California, United States of America. You hereby consent to the exclusive jurisdiction and venue in the state and federal courts of the County of Los Angeles, California and the Central District of California, respectively. The License will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. Unless otherwise required by law, an action or proceeding by you to enforce an obligation, duty, or right arising under the License or this Agreement or by law with respect to the Software or Services must be commenced within one (1) year after the cause of action or lawsuit arises or accrues.</p>
+
+<p>Notwithstanding any provision in this Agreement, either vBulletin or you may request any judicial, administrative, or other authority to order any provisional or conservatory measure, including injunctive relief, specific performance, or other equitable relief, prior to the institution of legal proceedings, or during the proceedings, for the preservation of its rights and interests or to enforce specific terms that are suitable for provisional remedies. By agreeing to the terms of this Agreement, you are waiving claims that you might otherwise have against vBulletin based on the laws of other jurisdictions.</p>
+
+<h2><strong>13. General Provisions.</strong></h2>
+
+<p>If for any reason a court of competent jurisdiction finds any provision, or portion of the License or this Agreement, to be unenforceable, the remainder of the License or this Agreement will continue in full force and effect. This is the entire agreement between vBulletin and you relating to the Software and the License and it supersedes any prior representations, discussions, undertakings, communications, or advertising relating to the Software. You may not assign or otherwise transfer by operation of law or otherwise this Agreement or any rights or obligations without the prior written consent of MH vBulletin. may assign this Agreement to any entity at its sole discretion. The English version of this Agreement will be the version used when interpreting or construing this Agreement.</p>
+
+<h2><strong>14. Compliance with Licenses.</strong></h2>
+
+<p>vBulletin periodically analyzes vBulletin software usage for possible piracy, and as such, you agree that, no more than once every twelve (12) months, vBulletin or its authorized representative will, upon ten (10) days&#8217; prior notice to you, verify that your use of the Software is in conformity with the License. You will provide such records and information to vBulletin within thirty (30) days of vBulletin&#8217; request. If verification discloses that your use is not in conformity with the License, you will immediately obtain a License to bring your use into conformity.</p>
+
+<h2><strong>15. Privacy.</strong></h2>
+
+<p>Our Privacy Policy (https://www.internetbrands.com/privacy/privacy-main) and Terms of Use (https://www.internetbrands.com/ibterms/) are incorporated by reference and made a part of this Agreement and may change from time to time at vBulletin&#8217;s sole discretion. Any of your data you provide to vBulletin under this Agreement is governed by our Privacy Policy. If you do not agree to the Terms of Use or Privacy Policy, do not purchase or use the Software.</p>
+
+<h2><strong>16. Electronic Notice Delivery Policy.</strong></h2>
+
+<p>vBulletin, when possible, transacts with users of its products electronically. When you provide with your email address, you consent to receive electronically from vBulletin any privacy or other notices, agreements, disclosures, reports, documents, communications, or other records (together, "Notices"). You agree that vBulletin can send you electronic Notices to the email address that you provide. The delivery of any Notice from vBulletin is effective when sent, regardless of whether you read the Notice when received or whether you actually receive the delivery.</p>
+
+<h2><strong>17. Electronic Contracting.</strong></h2>
+
+<p>Your use of the Software includes the ability to enter into agreements and/or to make transactions electronically. YOU ACKNOWLEDGE THAT YOUR ELECTRONIC SUBMISSIONS CONSTITUTE YOUR AGREEMENT AND INTENT TO BE BOUND BY AND TO PAY FOR SUCH AGREEMENTS AND TRANSACTIONS. YOUR AGREEMENT AND INTENT TO BE BOUND BY ELECTRONIC SUBMISSIONS APPLIES TO ALL RECORDS RELATING TO ALL TRANSACTIONS YOU ENTER INTO WITH VBULLETIN, INCLUDING NOTICES OF CANCELLATION, POLICIES, CONTRACTS,</p>
+
+<p>AND APPLICATIONS. In order to access and retain your electronic records, you may be required to have certain hardware and software, which are your sole responsibility.</p>
+
+<h2><strong>18. Third Party Services.</strong></h2>
+
+<p>The Software may facilitate your access to websites maintained by third parties offering goods, information, software, and services ("Third Party Online Service(s)"). Your access to and use of any</p>
+
+<p>Third Party Online Services is governed by the terms, conditions, disclaimers, and notices found on each site or otherwise associated with such Third Party Online Services. vBulletin does not control, endorse, or accept responsibility for Third Party Online Services. Any dealings between you and any third party in connection with a Third Party Online Service, including such party&#8217;s privacy policies and use of your personal information, delivery of and payment for goods and services, and any other terms, conditions, warranties, or representations associated with such dealings, are solely between you and such third party.</p>
+
+<p>Service Agreement for vBulletin Cloud</p>
+
+<p>This Agreement is between you (&#8220;you&#8221; or &#8220;your&#8221;) and MH Sub I, LLC dba vBulletin, a Delaware limited liability company (&#8220;vBulletin,&#8221; &#8220;we,&#8221; &#8220;our,&#8221; &#8220;us&#8221;).</p>
+
+<strong>1. Definitions.</strong>
+
+<p>(a) &#8220;Account&#8221; means your vBulletin Cloud profile and includes your Service plan level and features you have selected through the customer portal and personal information you have provided to vBulletin in connection with your vBulletin Cloud profile.</p>
+
+<p>(b) &#8220;Content&#8221; means written, graphical and electronic content and data, including, without limitation, text, audio, video, photographs, illustrations, photographs, designs, and forms.</p>
+
+<p>(c) &#8220;Data Policy&#8221; means vBulletin&#8217;s standard data deletion policy, as modified from time to time.</p>
+
+<p>(d) &#8220;Effective Date&#8221; means the date of commencement of the Service as listed in Your Account.</p>
+
+<p>(e) &#8220;End User&#8221; means a third party that visits your Website.</p>
+
+<p>(f) &#8220;End User Content&#8221; means Content supplied by End User displayed on your Website.</p>
+
+<p>(g) &#8220;Privacy Policy&#8221; means vBulletin&#8217;s privacy policy posted</p>
+
+<p>at https://www.internetbrands.com/privacy/privacy-main, as modified from time to time.</p>
+
+<p>(h) &#8220;Service&#8221; means your access to and use of the vBulletin Software and vBulletin Cloud.</p>
+
+<p>(i) &#8220;vBulletin Cloud&#8221; means vBulletin&#8217;s website hosting service.</p>
+
+<p>(j) &#8220;vBulletin Content&#8221; means Content supplied by vBulletin.</p>
+
+<p>(k) &#8220;vBulletin Software&#8221; means the most current version of vBulletin 5 Connect and any subsequent upgraded versions, as they become available; provided that vBulletin reserves the right to not offer You subsequent upgraded versions its sole discretion.</p>
+
+<p>(l) &#8220;Website&#8221; means your website hosted by vBulletin.</p>
+
+<p>(m) &#8220;Your Content&#8221; means Content supplied by you, made available by means of the Service or on your Website.</p>
+<strong>2. Service.</strong>
+
+<p>(a) Use of Service. The Service is intended to be used solely for hosting forum websites and not for other usage such as remote digital storage. The Service will only be offered for websites created within the vBulletin Cloud platform. vBulletin may change, discontinue or impose conditions on the Service at any time. vBulletin will provide the Service to You pursuant to its standard policies and procedures then in effect.</p>
+
+<p>(b) Service Levels. The Service offers various Service levels. The Service features, including permitted bandwidth, e-mail usage, and network usage, will depend on the level of Service selected by you in Your Account. The levels of Service and their respective features, as set forth in your Account and described on vBulletin&#8217;s website (www.vBulletin.com), may be changed by vBulletin from time to time.</p>
+
+<strong>3. Payment.</strong>
+
+<p>You will pay, and authorize vBulletin to charge, the Service fees using your selected payment method. The fees are based on the Service purchased and not actual usage. Payment obligations are non-refundable. vBulletin reserves the right to contact you or take down your Website if you fail to make timely Service payments. vBulletin may change Service pricing at any time in its sole discretion, provided that the new pricing will become effective upon commencement of the next Term, at which time, the new price will automatically be applied to your Service unless terminated by you in accordance with this Agreement.</p>
+
+<p>(a) Overage. The fees are based on the Service purchased and not actual usage, unless the actual usage exceeds the Service purchased. In the event that your use of the Service exceeds the use provided for by the Service level selected by you in your Account, vBulletin will be authorized to charge you the fee associated with the Service level consistent with your usage.</p>
+
+<strong>4. vBulletin Property &amp; Feedback.</strong>
+
+<p>(a) vBulletin Property. vBulletin retains all right, title, and interest in and to the Service, including without limitation all software, underlying core code used to provide the Service, and vBulletin Content, including all logos and trademarks reproduced through the Service (collectively, &#8220;vBulletin Property&#8221;). This Agreement does not grant you any intellectual property rights in or to the vBulletin Property or any component thereof. You recognize and agree that: (i) vBulletin Property is the property of vBulletin or its licensors and are protected by copyright, trademark, and other intellectual property laws; and (ii) you do not acquire any right, title, or interest in or to the vBulletin Property except the limited and temporary right to use it as necessary for your use of the Service.</p>
+
+<p>(b) Feedback. vBulletin will have a royalty-free, worldwide, irrevocable, perpetual license to use and incorporate into the Service any suggestions, enhancement requests, recommendations or other feedback provided by you.</p>
+
+<strong>5. Domain Names.</strong>
+
+<p>You may opt to use a personal domain name in connection with the Service, a sub-domain of vBulletin.net, or a domain name registered through us.</p>
+
+<p>(a) Personal Domain Name. In all instances where you use a personal domain name for the Service, you represent and warrant that you have all necessary right and title to the domain name, and that use of the domain name will not interfere with or violate any third party rights. Your personal domain</p>
+
+<p>will be subject to the terms of the Uniform Domain Dispute-Resolution Policy. You acknowledge that you, and in no case vBulletin, will be solely responsible the domain name, including all filings and fees associated with the domain name.</p>
+
+<p>(b) Sub-Domain of vBulletin. In all instances where vBulletin provides you with a sub-domain of vBulletin.net, vBulletin retains all right, title, and interest in the sub-domain. This Agreement does not grant you any property rights in or to the sub-domain or any part thereto, except the limited and temporary right to use the sub-domain in connection with your use of the Service during the Term.</p>
+
+<p>(c) vBulletin Domain Name Registration Services. If your domain name is registered through a domain name registration service provided by us, you are subject to and agree to the Domain Names Service Agreement, which is incorporated by reference.</p>
+
+<p>(d) Data. You acknowledge and agree that vBulletin may associate any data of any kind with the domain name associated with your Website or any uniform resource location incorporating said domain name until you replace such data with your Website, at such time if your Website is not available and upon termination of the Service, vBulletin may cause your domain to result in a</p>
+
+<p>&#8220;Webpage cannot be found&#8221; or &#8220;404 error page.&#8221;</p>
+
+<strong>6. Your Account, Password, and Security.</strong>
+
+<p>Upon registration, you will choose a username, password, and other Account information. You will have the ability to assign other individuals as administrators for your Account. You will be solely responsible for use of the Service by any such administrators and any other person who uses your username or password to access the Service whether or not you specifically authorize such person&#8217;s use or actions. You are solely responsible for (i) maintaining the confidentiality of your username, password, and Account and (ii) all activities that occur under your username, password and Account. You acknowledge and agree that under no circumstances will vBulletin be liable, in any way, for acts or omissions by you, your administrators, End Users, or any other third parties, including any damages of any kind incurred as a result of such acts or omissions.</p>
+
+<strong>7. Monitoring the Services.</strong>
+
+<p>vBulletin may take any legal and technical remedies to enforce or prevent the violation of this Agreement or any other vBulletin agreement or policy. vBulletin has no obligation to monitor the Service but may do so to (i) comply with laws, regulations, or governmental or legal requests; (ii) protect the overall integrity of its network including preventing the distribution of viruses or other malicious code; (iii) operate the technical aspects of the Service in a proper, effective, and reasonable manner; (iv) protect itself, its employees, or others as described in the Privacy Policy; or (v) to enforce or prevent breaches of this Agreement or any other vBulletin agreement or policy. vBulletin will use commercially reasonable efforts to schedule any maintenance outages in a way that minimizes the impact upon you and other customers; however, vBulletin cannot guarantee that your Service will not be interrupted and cannot always provide advance notice of such outages. vBulletin reserves the right to immediately take down your Website, in whole or in part, in its sole discretion, at any time and with or without notice to you.</p>
+
+<strong>8. Access and Use of Information.</strong>
+
+<p>By using the Service, you consent to the transfer, copying, processing and storage of your Content. You will possess and retain all right, title, and interest in and to your Content. vBulletin&#8217;s use and possession is solely to provide and maintain the Service and for the analysis and reporting of usage data. vBulletin will only disclose information regarding your use of the Service in accordance with the Privacy Policy, which applies only to the Service and does not apply to any third party site or service linked to the Service or recommended or referred to through the Service. Notwithstanding the foregoing, vBulletin may disclose your Content as required by applicable law or by proper legal or governmental authority. vBulletin reserves the right to archive your Content for the purpose of backing up the Service. vBulletin will retain your Content until erased pursuant to the Data Policy.</p>
+
+<strong>9. DMCA.</strong>
+
+<p>You agree to designate an agent to receive notifications of claimed infringement by providing contact information to the U.S. Copyright Office and posting such information on your Website, in accordance with the Digital Millennium Copyright Act (&#8220;DMCA&#8221;). You further agree to expediently respond to notifications of claimed infringement. If vBulletin receives a notification of claimed infringement by your Website, vBulletin will attempt to contact you. In the event that you fail to expediently respond to a direct notification of claimed infringement or a correspondence by vBulletin regarding claimed infringement notification, vBulletin reserves the right to take down your Website or any Content claimed to be infringing without your consent. You will not be entitled to reimbursement of Service fees for Website downtime resulting from your failure to respond to DMCA notifications or correspondences. vBulletin may be required to disclose information to individuals asserting rights under the DMCA, and you expressly authorize vBulletin to comply with any and all lawful notices, subpoenas, court orders, or warrants without prior notice to you.</p>
+
+<strong>10. Your Representations and Warranties. You represent and warrant:</strong>
+
+<p>(a) Your Account information is accurate and you will, at all times, maintain the accuracy of such information;</p>
+
+<p>(b) You will abide by all applicable laws, rules, and regulations in connection with this Agreement, the Service, and your Website, including any applicable data privacy laws, DMCA and the CAN- SPAM Act of 2003, as amended;</p>
+
+<p>(c) Your Website will have a posted privacy policy that, at a minimum, discloses the personal information you collect from End Users and is in compliance with all applicable Federal Trade Commission guidelines and any other applicable laws and regulations with respect to online privacy and offers End Users an opportunity to opt-out from collection and use of non-personally identifiable information;</p>
+
+<p>(d) Your Content, Website, and End User Content do not, and will not, infringe or violate the rights of any third party;</p>
+
+<p>(e) Your Website will not to store, transmit, or display any Content that is obscene, defamatory, libelous, threatening, harassing, pornographic, racially or ethnically offensive, that encourages conduct that would be considered a criminal offense or give rise to any civil liability;</p>
+
+<p>(f) Your Content, Website, and End User Content will be free of any dangerous or malicious content or scripts that could potentially damage or impair the Service to you or other customers (ex. viruses, Trojan horses, Easter eggs, worms, time bombs, cancelbots, buffer overflow programs; back doors, trap doors, cross-site scripting, spam, bots of any type, denial of service attacks);</p>
+
+<p>(g) You will not attempt to undermine, interfere, disrupt, or otherwise adversely affect the security, integrity, or performance of the Service, vBulletin&#8217;s network, or third-party data contained therein, as determined by vBulletin in its sole discretion;</p>
+<p>(h) You will not utilize processes that generate unreasonable or excessive usage of vBulletin&#8217;s system resources, as determined by vBulletin in its sole discretion;</p>
+
+<p>(i) You will not attempt to gain unauthorized access to the Service or their related systems or networks.</p>
+
+<strong>11. DISCLAIMER OF WARRANTIES.</strong>
+
+<p>THE SERVICE IS PROVIDED &#8220;AS IS&#8221; AND AS AVAILABLE. TO THE FULLEST EXTENT PERMITTED BY LAW, VBULLETIN MAKES NO WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS. FURTHER, VBULLETIN MAKES NO REPRESENTATIONS ABOUT VBULLETIN CONTENT OR INFORMATION MADE ACCESSIBLE BY OR THROUGH THE</p>
+
+<p>SERVICE, THE SPECIFIC FUNCTIONS OF THE SERVICE, OR THE SERVICE&#8217;S RELIABILITY, AVAILABILITY, OR ABILITY TO MEET YOUR NEEDS. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, (I) VBULLETIN HAS NO OBLIGATION TO INDEMNIFY OR DEFEND YOU AGAINST CLAIMS RELATED TO INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS; AND (II) VBULLETIN DOES NOT WARRANT THAT THE SERVICE WILL PERFORM WITHOUT ERROR OR IMMATERIAL INTERRUPTION.</p>
+
+<strong>12. LIMITATION OF LIABILITY.</strong>
+
+<p>IN NO EVENT (A) WILL VBULLETIN&#8217;S LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT EXCEED THE AMOUNT PAID BY YOU UNDER THIS AGREEMENT IN THE TWELVE (12) MONTH PERIOD IMMEDIATELY PRECEDING THE CLAIM; AND (B) WILL VBULLETIN BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, SPECIAL, INCIDENTAL, OR PUNITIVE DAMAGES, INCLUDING ARISING FROM (I) CONTENT ON THE WEBSITE; (II) END USERS&#8217; USE OF THE WEBSITE; (III) OTHER PARTIES ACCESSING YOUR CONTENT OR ACCOUNT; (IV) SECURITY BREACHES; (V) INTERCEPTION OF TRAFFIC SENT OR RECEIVED USING THE SERVICE; (VI) INTERRUPTIONS OF THE SERVICE, INCLUDING INTERRUPTIONS DUE TO MAINTENANCE; (VI) RELIANCE ON OR USE OR MISUSE OF THE SERVICE; (VIII) MISTAKES, OMISSIONS, INTERRUPTIONS, DELETION OF YOUR CONTENT OR ANY FAILURE OF PERFORMANCE OF THE SERVICE; (IX) INABILITY TO ACCESS THE SERVICE DUE TO CONNECTIONS, INTERNET ROUTING, FILTERING BY GOVERNMENT AGENCIES, HACKING, SPAMMING, OR ANY OTHER CIRCUMSTANCE OUTSIDE THE CONTROL OF VBULLETIN; OR</p>
+
+<p>(X) THE USE OF THE SERVICE BY YOU, END USERS, OR OTHER THIRD PARTIES THAT INFRINGES A THIRD PARTY&#8217;S COPYRIGHT, PATENT, TRADEMARK, TRADE SCRET, CONFIDENTIALITY, PRIVACY, OR OTHER INTELLECTUAL PROPERTY RIGHTS, PROPRIETARY RIGHTS OR CONTRACTUAL RIGHTS. THE LIABILITIES LIMITED BY THIS SECTION APPLY: (I) TO LIABILITY FOR NEGLIGENCE; (II) REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, STRICT PRODUCT LIABILITY, OR OTHERWISE; (III) EVEN IF VBULLETIN IS ADVISED IN ADVANCE OF THE POSSIBILITY OF THE DAMAGES IN QUESTION AND EVEN IF SUCH DAMAGES WERE FORESEEABLE; AND (IV) EVEN IF YOUR REMEDIES ARE FOUND TO HAVE FAILED THEIR ESSENTIAL PURPOSE. IF APPLICABLE LAW LIMITS THE APPLICATION OF THE PROVISIONS OF THIS SECTION, VBULLETIN&#8217;S LIABILITY WILL BE LIMITED TO THE MAXIMUM EXTENT PERMISSIBLE.</p>
+
+<strong>13. Damages.</strong>
+
+<p>You understand and agree that, because damages are often difficult to calculate, if it becomes necessary for vBulletin to pursue legal action to enforce this Agreement against you, you will be liable to pay vBulletin the following amounts as liquidated damages, not as a penalty, but as a reasonable estimate of vBulletin&#8217;s damages for the specified breaches of this Agreement:</p>
+
+<p>(a) If your Content violates this Agreement, you agree to pay vBulletin $100 for each item posted in violation of this Agreement. We may, but will not be required to, issue you a warning before assessing damages.</p>
+
+<p>(b) If you display, copy, duplicate, reproduce, reverse engineer, or exploit any vBulletin Property in violation of this Agreement, you agree to pay vBulletin $1,000 for each item of vBulletin Property.</p>
+
+<p>(c) If you intend to damage, interfere with, disrupt, impair, disable or otherwise overburden the Service or vBulletin&#8217;s server, you agree to pay vBulletin $1,000 for each instance.</p>
+
+<strong>14. Indemnification.</strong>
+
+<p>You agree to defend, indemnify and hold harmless vBulletin, its parent and affiliates, and their respective shareholders, officers, directors, employees, agents, licensees, and assigns from and against all claims, losses, damages, liability, costs and expenses (including attorneys&#8217; fees) arising from (i) your use or misuse of the Service; (ii) the use or misuse of the Service by anyone else through your Account; and (iii) a breach of any of your representation, warranty, or obligation hereunder.</p>
+
+<strong>15. Subpoena Policy.</strong>
+
+<p>(a) Service of Subpoenas. We are committed to protecting the privacy of our customers. We do not release non-public information about our customers, except as lawfully required by appropriate legal process such as subpoena, court order, or other valid legal process. We are headquartered in El Segundo, California and will only respond to legal process in compliance with California State and United States Federal law. We only accept legal process delivered by personal delivery or complaint service by the United States Postal Service (we do not accept legal process via email). Acceptance of legal process by these means is for convenience only and does not waive any objections, including lack of jurisdiction or proper service. A person or entity seeking the identity or account information of a vBulletin customer in connection with a civil (as opposed to criminal) legal matter must properly serve us with a subpoena at the following address:</p>
+
+<p>Corporation Service CompanyAttention: MH Sub I, LLC dba vBulletin 2710 Gateway Oaks Drive, Suite 150NSacramento, CA 95833-3505</p>
+
+<p>(b) Documentation; Notice; Response. We reserve the right to request a copy of the complaint and any supporting documentation that demonstrates how the information requested is related to the pending litigation and the underlying subpoena. Upon receipt of a valid civil subpoena, vBulletin will promptly notify the customer whose information is sought. If circumstances do not amount to an emergency, vBulletin will not immediately produce the user information sought by the subpoena and will provide the customer an opportunity to move to quash the subpoena in court.</p>
+
+<p>(c) Fees for Subpoena Compliance. We will charge the person or entity submitting the civil subpoena for costs, and any applicable taxes, associated with subpoena compliance. Payment must be made within thirty (30) days from the receipt of the invoice. Checks should be made out to MH Sub I, LLC dba vBulletin Our subpoena compliance costs are as follows:</p>
+
+<p>Research: $150.00 per hour Mailing: Cost as billed Copies: $.50 per page</p>
+
+<p>Discs and Hard Drives: Cost as billed</p>
+
+<p>(d) E-mail Policy. vBulletin will not produce the content of e-mail, as the Stored Communications Act, 18 U.S.C. &sect; 2701 et seq., prohibits an electronic communications service provider from producing the contents of electronic communications, even pursuant to subpoena or court order, except in limited circumstances.</p>
+
+<strong>16. Term &amp; Termination.</strong>
+
+<p>(a) Term. This Agreement commences on the Effective Date and will continue on a month-to-month basis (&#8220;Term&#8221;).</p>
+
+<p>(b) Termination for Cause. vBulletin may terminate this Agreement for material breach by you upon ten (10) days&#8217; prior written notice to you. If vBulletin terminates this Agreement for cause, you will not be entitled to a refund of the unused portion of the fees paid for the Service.</p>
+
+<p>(c) Termination for Convenience. You may terminate this Agreement for convenience by ceasing use of the Service. If you terminate this Agreement for convenience, you will not be entitled to a refund of the unused portion of the fees paid for the Service. vBulletin may terminate this Agreement for convenience upon three (3) months&#8217; prior written notice to you. If vBulletin terminates this Agreement for convenience, you will be entitled to a refund of the unused portion of the fees paid for the Service.</p>
+
+<p>(d) Effects of Termination. Upon termination of this Agreement, the rights granted hereunder by any party to the other will cease immediately and your access to the Service will cease. The following provisions will survive termination of this Agreement: (i) any obligation you have to pay for Service rendered before termination; (ii) Sections 3 (Payment), 4 (vBulletin Property &amp; Feedback), 5 (Domain Names), 8 (Access and Use of Your Information), 11 (Disclaimer of Warranties), 12 (Limitation of Liability), 13 (Damages), 14 (Indemnification), 15 (Subpoena Policy), and 17 (Miscellaneous) of this Agreement; and (iii) any other provision of this Agreement that must survive termination to fulfill its essential purpose.</p>
+
+<strong>17. Miscellaneous.</strong>
+
+<p>(a) Notices. We may send you notices pursuant to this Agreement to the contact information listed in your Account, and such notices will be deemed received two (2) days after they are sent. You may send written notices pursuant to this Agreement to MH Sub I, LLC dba vBulletin, 909 N. Pacific Coast Hwy, 11th Floor, El Segundo, CA 90245, Attention: Legal Affairs, and such notices will be deemed received two (2) days after they are sent.</p>
+
+<p>(b) Amendment. We may amend this Agreement (including the Privacy Policy) from time to time by posting an amended version on our website (vBulletin.com). Any modified version will be effective at the time it is posted. Your continued use of the Service following the effective date of an amendment will confirm your consent thereto. This Agreement may not be amended in any other way.</p>
+
+<p>(c) Independent Contractors. The parties are independent contractors. Nothing in this Agreement, or any action by the parties, will be construed to create a partnership, joint venture, or agency. Neither party may bind the other in any way.</p>
+
+<p>(d) No Waiver. Neither party will be deemed to have waived any of its rights under this Agreement by lapse of time or by any statement or representation unless the waiver is in writing and signed by the party against whom the waiver is being enforced. No waiver of a breach of this Agreement will constitute a waiver of any prior or subsequent breach of this Agreement.</p>
+
+<p>(e) Force Majeure. A party shall not be liable for any failure of or delay in the performance of this Agreement for the period that such failure or delay is due to causes beyond its reasonable control, including, but not limited to, acts of God, war, strikes or labor disputes, embargoes, government orders or any other force majeure event.</p>
+
+<p>(f) Assignment &amp; Successors. Neither party may assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the other party, except vBulletin may assign this Agreement in connection with a sale, merger, or transfer to a corporate affiliate without your consent. This Agreement will be binding upon and inure to the benefit of the respective successors and assigns of the parties.</p>
+
+<p>(g) Choice of Law &amp; Jurisdiction. This Agreement will be governed solely by the laws of the State of California, without reference to its conflict of law rules. The parties irrevocably consent to the personal and exclusive jurisdiction of the state and federal courts located in Los Angeles County, California and the Central District of California, respectively. The aforementioned choice of venue is intended by the parties to be mandatory, and not permissive, in nature.</p>
+
+<p>(h) Severability. To the extent permitted by applicable law, the parties hereby waive any provision of law that would render any clause of this Agreement invalid or otherwise unenforceable in any respect. If any provision of this Agreement is judged to be invalid or unenforceable, such provision shall first be revised, limited or amended, consistent with the general intent of the provision, such that it is valid and enforceable, and the remaining provisions of this Agreement shall be unaffected and remain enforceable</p>
+
+<p>(i) Conflicts among Attachments. In the event of any conflict between the terms of this Agreement and those of the Privacy Policy, the terms of this Agreement will govern.</p>
+
+<p>(j) Entire Agreement. This Agreement sets forth the entire agreement of the parties and supersedes all prior or contemporaneous writings, negotiations, and discussions with respect to the subject matter hereof.</p>
+
+<p>Effective July 28, 2023</p>
+
+</div>
+
+</body>
+</html>

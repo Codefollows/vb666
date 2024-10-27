@@ -1,0 +1,16 @@
+/*
+ =======================================================================*\
+|| ###################################################################### ||
+|| # vBulletin 6.0.6
+|| # ------------------------------------------------------------------ # ||
+|| # Copyright 2000-2024 MH Sub I, LLC dba vBulletin. All Rights Reserved.  # ||
+|| # This file may not be redistributed in whole or significant part.   # ||
+|| # ----------------- VBULLETIN IS NOT FREE SOFTWARE ----------------- # ||
+|| # http://www.vbulletin.com | http://www.vbulletin.com/license.html   # ||
+|| ###################################################################### ||
+\*========================================================================*/
+vBulletin.memberChannel=function(d){function n(a,b,e){a=a.filter(b).toggleClass("h-disabled",!e);e?a.attr("href",e):a.removeAttr("href")}function p(a,b){function e(c){var g=c.innerWidth(),h=parseInt(c.css("paddingLeft"),10);c=parseInt(c.css("paddingRight"),10);return Math.floor(g-h-c)}function f(c,g){var h=!!g;c.width(g);c.toggleClass("b-groupgrid__item-inner--expanded",h);g=d(".js-groupgrid-item-icon",l).outerWidth();l=d(".js-groupgrid-item-icon-link",l).outerWidth();h&&l>g&&c.removeClass("b-groupgrid__item-inner--expanded");
+var l=c.first();h=e(l)-1;c.find(".js-groupgrid-item-icon-link").width(h).height(h)}if(a.length&&(f(a,""),b)){b=a.first();var k=e(b.closest(".b-groupgrid__item")),m=Math.ceil(b.outerWidth(!0))-e(b);b.closest(".b-groupgrid__item").is(".b-flexgrid__item--lastrow")||(a.each(function(){var c=d(this).closest(".b-groupgrid__item");if(c.is(".b-flexgrid__item--lastrow"))return!0;k=Math.min(k,e(c))}),f(a,k-m-1))}}function q(a,b){a=d(".b-groupgrid__item-inner");b&&b.isResize&&a.css({opacity:"0"});p(a,!1)}function r(a,
+b){a=d(".b-groupgrid__item-inner");p(a,!0);b&&b.isResize&&a.removeClass("h-tranparent").animate({opacity:"1"},400)}return{updateToolbarButtonPressState:function(a){function b(f){var k=f.data("js-movable-button-clone-id");return d(".js-movable-toolbar-button-clone").filter(function(){return d(this).data("js-movable-button-clone-id")==k})}if(!a.find(".js-button-filter-display-blogs.js-checked").length){var e=a.find(".js-display-blogs-state").data("display-blogs-state");a.find(".js-button-filter-display-blogs").filter('[data-filter-value="{0}"]'.format(e)).addClass("js-checked")}a.find(".js-button-filters .js-button-filter").removeClass("b-button--pressed").each(function(){b(d(this)).removeClass("b-button--pressed")}).filter(".js-checked").addClass("b-button--pressed").each(function(){b(d(this)).addClass("b-button--pressed")})},
+updateToolbarPagination:function(a){var b=d(".conversation-toolbar-wrapper .pagenav-controls .pagenav-form",a),e=d(".arrow",b).removeClass("h-disabled"),f=a.find(".js-membergroup-pagination-info"),k=f.find(".js-prevpage").val(),m=f.find(".js-nextpage").val(),c=f.find(".js-pagenum").val()||1;f=f.find(".js-totalpages").val()||1;var g=a.find(".js-under-toolbar-pagenav .js-pagenav");a=a.find(".js-pagenav").not(g);d(".js-pagenum",b).val(c);d(".pagetotal",b).text(f);n(e,"[rel=prev]",k);n(e,"[rel=next]",
+m);0==a.length?g.html(""):g.html(a.clone().html())},initFlexGridAdjustments:function(a){a.on("vbulletin:flexgridstart",".js-flexgrid",q).on("vbulletin:flexgridready",".js-flexgrid",r)}}}(jQuery);

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<product productid="shopify" active="0">
+	<title>vBulletin Shopify Integration</title>
+	<description><![CDATA[Implements [buy] bbcode and RSS product feed integration.]]></description>
+	<version>6.0.6</version>
+	<url />
+	<versioncheckurl />
+	<dependencies>
+		<dependency dependencytype="php" minversion="6.0.6" maxversion="" />
+		<dependency dependencytype="vbulletin" minversion="6.0.1 Alpha 1" maxversion="6.9.9" />
+	</dependencies>
+	<codes>
+		<code version="*">
+			<installcode><![CDATA[
+				$assertor = vB::getDBAssertor();
+				$check1 = $assertor->assertQuery('shopify:create_shopify_session');
+]]></installcode>
+			<uninstallcode><![CDATA[
+				$assertor = vB::getDBAssertor();
+				$check1 = $assertor->assertQuery('shopify:drop_shopify_session');
+]]></uninstallcode>
+		</code>
+	</codes>
+	<templates>
+		<template name="shopify_javascript" templatetype="template" date="1462382432" username="kevin" version="1.0"><![CDATA[
+{vb:data client_info, Shopify:Shopify, getClientsideAccessToken}
+<!-- 
+https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js
+https://sdks.shopifycdn.com/buy-button/2.2.1/buybutton.js
+https://sdks.shopifycdn.com/buy-button/2.2.1/buybutton.min.js
+-->
+<script src="https://sdks.shopifycdn.com/buy-button/2.2.1/buybutton.min.js"></script>
+<script src="core/packages/shopify/js/vbshopify.js?v={vb:var vboptions.simpleversion}"></script>
+<meta class="js-vb-shopify-clientinfo"
+	data-access-token="{vb:var client_info.access_token}"
+	data-store="{vb:var client_info.store}"
+	/>
+{vb:template shopify_rss_css}
+]]></template>
+		<template name="shopify_rss_css" templatetype="template" date="1462382432" username="kevin" version="1.0"><![CDATA[
+<style>
+<vb:comment>/*
+So without the sample styling for the shopify buy button, the whole block (particularly the image)
+are a bit too big IMO. At larger sizes, it doesn't "fit" into the viewport nicely for a quick read,
+which is worse for engagement I think. However, for RSS feed items, having the constrained width
+looks bad (note rss feed items have .vb-shopify-rssfeed-item)
+*/</vb:comment>
+.vb-shopify-bbcode-buy-item {
+	max-width: 600px;
+}
+</style>
+]]></template>
+	</templates>
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+	</stylevars>
+	<hooks>
+		<hook>
+			<hookname>header_head</hookname>
+			<title>Shopify Javascript</title>
+			<active>1</active>
+			<hookorder>20</hookorder>
+			<template>shopify_javascript</template>
+			<arguments />
+		</hook>
+	</hooks>
+	<phrases>
+		<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+			<phrase name="setting_shopify_apikey_desc" date="1673547224" username="jinsoojo" version="0.0.1"><![CDATA[If you have not added a Custom App for Shopify yet, follow the steps in https://help.shopify.com/en/manual/apps/custom-apps to perform the following:
+<ul>
+<li><a href="https://help.shopify.com/en/manual/apps/custom-apps#enable-custom-app-development-from-the-shopify-admin">Enable custom app development from the Shopify admin</a></li>
+
+<li><a href="https://help.shopify.com/en/manual/apps/custom-apps#create-and-install-a-custom-app">Create and install a custom app</a>
+  <ul>
+   <li>Use any name for the App name, e.g. "vBulletin Shopify Buy Button" or "vBulletin Integration"</li>
+   <li>In the overview page, click on "Configure Storefront API scopes" and select the following two scopes then click Save:
+     <ul>
+       <li><b>unauthenticated_read_product_listings</b> under "Products", needed to fetch product information for the "buy" button.</li>
+       <li><b>unauthenticated_write_checkouts</b> under "Checkout", needed for Shopify JS SDK to hook up the "buy" button to the Shopify store.</li>
+       <li>Note: Ensure you are granting the "Storefront API" scopes, not "Admin API".</li>
+     </ul>
+   </li>
+   <li>Click "Install app" and copy the Storefront API access token that should be visible.</li>
+   <li>On the API credentials page, scroll down to "API key and secret key" and copy those too.</li>
+  </ul>
+</li>
+
+<li><a href="https://help.shopify.com/en/manual/apps/custom-apps#get-the-api-credentials-for-a-custom-app">Get the API credentials for a custom app</a>
+  <ul>
+   <li>If you already have the Storefront API access token and the API key and secret key above, you can skip this step.</li>
+  </ul>
+</li>
+</ul><br />
+Once you have created and installed the Custom App to your store and copied the credentials per above, enter your API key here.<br />
+You can view your API credentials again by logging into your Shopify admin, clicking on Settings (bottom left) > Apps and sales channels > Develop Apps > clicking on your Custom App that was created via above steps, then clicking on the "API credentials" tab.]]></phrase>
+			<phrase name="setting_shopify_apikey_title" date="1673547224" username="jinsoojo" version="0.0.1"><![CDATA[Shopify API Key]]></phrase>
+			<phrase name="setting_shopify_apisecret_desc" date="1673546678" username="jinsoojo" version="0.0.1"><![CDATA[Enter your Custom App's "API Secret" here. See "Shopify API Key" on how to generate or view your API credentials.]]></phrase>
+			<phrase name="setting_shopify_apisecret_title" date="1673546678" username="jinsoojo" version="0.0.1"><![CDATA[Shopify API Secret]]></phrase>
+			<phrase name="setting_shopify_store_desc" date="1673544999" username="jinsoojo" version="0.0.1"><![CDATA[Enter your store URL here. <br />
+E.g. <br />
+https://your-store-example.myshopify.com]]></phrase>
+			<phrase name="setting_shopify_store_password_desc" date="1673547118" username="jinsoojo" version="0.0.1"><![CDATA[If your store is password protected (e.g. store in development), enter the password in this field. Otherwise, leave this blank. <br />
+If you forgot your store password and want to retrieve it, please refer to <a href="https://help.shopify.com/en/manual/online-store/themes/password-page">this Shopify documentation</a>.]]></phrase>
+			<phrase name="setting_shopify_store_password_title" date="1673547118" username="jinsoojo" version="0.0.1"><![CDATA[Shopify Store Password]]></phrase>
+			<phrase name="setting_shopify_store_title" date="1671839727" username="jinsoojo" version="0.0.1"><![CDATA[Store URL]]></phrase>
+			<phrase name="setting_shopify_storefrontaccesstoken_desc" date="1673546663" username="jinsoojo" version="0.0.1"><![CDATA[Enter your Custom App's "Storefront Access Token" here. See "Shopify API Key" on how to generate or view your API credentials.]]></phrase>
+			<phrase name="setting_shopify_storefrontaccesstoken_title" date="1673546663" username="jinsoojo" version="0.0.1"><![CDATA[Shopify Storefront Access Token]]></phrase>
+			<phrase name="settinggroup_shopify" date="1644288679" username="jinsoojo" version="5.6.7 Alpha 4"><![CDATA[Shopify Integration]]></phrase>
+		</phrasetype>
+	</phrases>
+	<options>
+		<settinggroup name="shopify" displayorder="7000">
+			<setting varname="shopify_store" displayorder="10">
+				<datatype>free</datatype>
+			</setting>
+			<setting varname="shopify_apikey" displayorder="20">
+				<datatype>free</datatype>
+			</setting>
+			<setting varname="shopify_apisecret" displayorder="30">
+				<datatype>free</datatype>
+			</setting>
+			<setting varname="shopify_storefrontaccesstoken" displayorder="50">
+				<datatype>free</datatype>
+			</setting>
+			<setting varname="shopify_store_password" displayorder="60">
+				<datatype>free</datatype>
+			</setting>
+		</settinggroup>
+	</options>
+	<helptopics>
+	</helptopics>
+	<cronentries>
+	</cronentries>
+	<faqentries>
+	</faqentries>
+	<widgets>
+	</widgets>
+	<pagetemplates>
+	</pagetemplates>
+	<pages>
+	</pages>
+	<channels>
+	</channels>
+	<routes>
+	</routes>
+</product>

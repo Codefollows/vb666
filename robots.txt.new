@@ -1,0 +1,15 @@
+#Add the prefix for your site to the sitemap link and comment the Sitemap line
+#The Sitemap must be a fully qualified url includign the https or http protocol.
+#Sitemap: {path to vBulletin}/core/xmlsitemap.php
+
+User-agent: *
+Disallow: /admincp/
+Disallow: /modcp/
+Disallow: /attachments/
+Disallow: /images/
+Disallow: /members/
+Disallow: /search/
+Disallow: /new-content/
+Disallow: /auth/
+Disallow: /register
+Disallow: /uploader/url
